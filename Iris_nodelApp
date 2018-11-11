@@ -1,0 +1,6 @@
+from sklearn.datasets import load_iris
+from sklearn.preprocessing import StandardScalar
+from sklearn.model_selection import trainn_test_split
+
+data = load_iris()
+print data
